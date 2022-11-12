@@ -11,6 +11,18 @@ Selected link color (black): #000;
 Button Color (lightgrey): #d3d3d3
  */
 
+:root {
+  --primary-color: #87cee0;
+  --secondary-color: #4f9d7b;
+  --header-color: #4b0082;
+  --text-color: #000;
+  --button-color: #d3d3d3;
+  --active-links-color: #2f4f4f;
+  --visited-links-color: #191970;
+  --selected-links-color: #000;
+  --font-weight: 400;
+  --font-size: 16px;
+}
 
 body {
   background-color: #87cee0;
