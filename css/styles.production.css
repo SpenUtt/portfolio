@@ -1,0 +1,50 @@
+$background-color-primary: #87ceeb;
+$background-color-primary-darker: darken($background-color-primary, 10%);
+$background-color-primary-lighter: lighten($background-color-primary, 10%);
+$background-color-secondary: #d3d3d3; 
+
+$color-primary: #4b0082;
+$color-secondary: #000;
+$box-shadow: rgba(0,0,0,0.3);
+
+%button-shared {
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 4px 3px 15px 0px 
+rgba(0,0,0,0.3);
+  &:hover  {
+  box-shadow: none;}
+ }
+
+.box__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.box-primary {
+  @extend %button-shared; 
+  background-color: $background-color-primary;
+  color: $color-primary;
+}
+
+.box-primary-lighter {
+ @extend %button-shared;
+  background-color: $background-color-primary-lighter;
+  color: $color-primary;
+}
+
+.box-primary-darker {
+ @extend %button-shared;
+  background-color: $background-color-primary-darker;
+  color: $color-primary;
+}
+
+.box-secondary {
+ @extend %button-shared;
+  background-color: $background-color-secondary;
+  color: $color-secondary;
+}
