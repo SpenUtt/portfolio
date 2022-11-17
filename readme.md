@@ -2,8 +2,16 @@
 **Project Objectives:** 
 * Develop my professional portfolio and website for my web development career
 * Practice and demonstrate my coding skills 
-**Technoligies used:**
+<br>
+
+**Technologies used:**
 * HTML
-* CSS/SCSS   
-## link:
-[Portfolio] (https://spenutt.github.io/portfolio-website/)  
+* CSS/SCSS  
+* Flexbox 
+* Github pages  
+# Link:
+https://spenutt.github.io/portfolio-website/
+
+## Screenshots:
+
+(Coming soon) 
