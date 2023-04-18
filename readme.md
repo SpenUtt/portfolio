@@ -10,7 +10,7 @@
 * Flexbox 
 * Github pages  
 # Link:
-https://spenutt.github.io/portfolio-website/
+https://spenutt.github.io/portfolio
 
 ## Screenshots:
 
